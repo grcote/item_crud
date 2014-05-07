@@ -38,7 +38,7 @@ feature 'read/show page with updated item' do
   end
 end
 
-feature 'idex page without deleted item' do
+feature 'index page without deleted item' do
   scenario 'user can delete an item' do
     visit '/'
     click_on 'Create Item'
